@@ -140,7 +140,7 @@ function wait(){
 	if(loadState === 0){
 		start();
 	}else{
-		setTimeout(wait);
+		setTimeout(wait, 100);
 	}
 }
 wait();
